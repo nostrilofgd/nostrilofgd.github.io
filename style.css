@@ -9,6 +9,11 @@
 }
 */
 
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+
 body {
   background-color: #1F1F1F;
   color: #EEEEEE;
@@ -46,7 +51,7 @@ p {
 
 table {
   width: 100%;
-  border: 6px solid #ea232f;
+  border: 2px solid #7A7F80;
   margin-top: 25px;
   margin-bottom: 50px;
   padding: 14px;
@@ -55,12 +60,12 @@ table {
 }
 
 th {
-  border-bottom: 3px solid #ea232f;
+  border-bottom: 1px solid #7A7F80;
   padding: 8px;
 }
 
 td {
-  border: .5px solid #ea232f;
+  border: .2px solid #7A7F80;
   padding: 6px;
   padding-left: 12px;
   vertical-align: top;
